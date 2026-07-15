@@ -1,0 +1,263 @@
+{
+  "theme": {
+    "colorPrimary": "#D8001F",
+    "colorPrimaryLight": "#EA3349",
+    "colorSecondary": "#2E8B57",
+    "colorBg": "#F7F6F2",
+    "colorInk": "#1A1A18"
+  },
+  "en": {
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "why": "Why GBS",
+      "insights": "Insights",
+      "contact": "Contact",
+      "cta": "Let's Talk"
+    },
+    "hero": {
+      "eyebrow": "GLOBAL COMMODITY TRADING — SINCE 2010",
+      "titleLine1": "EMPOWERING",
+      "titleLine2": "YOUR BUSINESS",
+      "titleLine3": "FOR SUCCESS",
+      "subtitle": "Global commodity trading solutions that connect markets, reduce risk, and maximize profitability — across metals, energy, agriculture and soft commodities.",
+      "ctaPrimary": "Explore Our Services",
+      "ctaSecondary": "Get In Touch",
+      "videoUrl": "https://videos.pexels.com/video-files/2943126/2943126-uhd_2560_1440_24fps.mp4",
+      "posterUrl": "https://images.pexels.com/videos/2943126/free-video-2943126.jpg?auto=compress&cs=tinysrgb&w=1600",
+      "tags": ["METALS", "ENERGY", "AGRO-FOODS", "MINERALS", "LOGISTICS"]
+    },
+    "stats": [
+      { "num": "15", "suffix": "", "label": "Years of Market Experience" },
+      { "num": "4", "suffix": "", "label": "Continents of Operation" },
+      { "num": "3", "suffix": "", "label": "Integrated Business Lines" },
+      { "num": "20", "suffix": "+", "label": "Commodity Categories Traded" }
+    ],
+    "about": {
+      "tag": "01 — About Us",
+      "heading": "Who We Are",
+      "lead1": "GBS Trade is a global commodities trading company with over a decade of experience in the acquisition, commercialization, and distribution of raw materials across metals, energy, agricultural, and soft commodities.",
+      "lead2": "We don't just trade commodities — we build long-term relationships that drive sustainable growth and operational success for our clients worldwide, operating across strategic markets in Latin America, Europe, Asia and the Middle East.",
+      "cards": [
+        {
+          "num": "01",
+          "title": "Who We Are",
+          "text": "A trusted commercial partner spanning intermediation, direct sale and logistics — built on a global network of buyers, sellers and operators.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen2.png/:/cr=t:27.78%25,l:0%25,w:100%25,h:44.43%25/rs=w:1240,h:620,cg:true"
+        },
+        {
+          "num": "02",
+          "title": "Mission",
+          "text": "Connect global markets efficiently by offering customized commodity trade solutions that create value while promoting a sustainable and responsible financial environment.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen4.png/:/cr=t:0%25,l:9.84%25,w:80.32%25,h:100%25/rs=w:600,h:300,cg:true"
+        },
+        {
+          "num": "03",
+          "title": "Vision",
+          "text": "Become the world's leading commodity trading platform — recognized for integrity, innovation and impact, redefining industry standards through trust, sustainability and technology.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen5.png/:/cr=t:20.1%25,l:0%25,w:100%25,h:59.8%25/rs=w:600,h:300,cg:true"
+        }
+      ]
+    },
+    "services": {
+      "tag": "02 — What We Do",
+      "heading": "Our Services",
+      "sub": "Three integrated business lines that adapt to how each client wants to operate — as an intermediary, a seller, or a logistics partner.",
+      "items": [
+        {
+          "icon": "fa-handshake",
+          "title": "Strategic Business Management",
+          "text": "We act as a trusted intermediary, connecting buyers and sellers without taking ownership of the product — reducing risk while accelerating the deal.",
+          "points": ["Access to a global network of buyers and sellers", "Specialized negotiation services", "Risk management and market advisory"],
+          "badges": ["Reduced commercial risk", "Faster transactions", "Compliant operations"],
+          "image": "https://images.unsplash.com/photo-1752159684779-0639174cdfac?w=800&q=80&auto=format&fit=crop"
+        },
+        {
+          "icon": "fa-truck-fast",
+          "title": "Logistic Services",
+          "text": "We manage the entire logistics process from origin to destination, ensuring efficiency, compliance and reliability at every step.",
+          "points": ["Global network of transporters and logistics operators", "End-to-end supply chain management", "Customs, tax and regulatory compliance"],
+          "badges": ["Competitive rates", "Tailored solutions", "Simplified import/export"],
+          "image": "https://images.unsplash.com/photo-1759272840712-c7e5ea852367?w=800&q=80&auto=format&fit=crop"
+        },
+        {
+          "icon": "fa-boxes-stacked",
+          "title": "Direct Sale of Commodities",
+          "text": "GBS trades directly across a wide range of commodities, ensuring quality, transparency and reliable delivery from acquisition to entry.",
+          "points": [],
+          "badges": ["Full traceability", "Competitive pricing", "Reliable delivery"],
+          "image": "https://images.unsplash.com/photo-1718752773168-a44aa1601ddd?w=800&q=80&auto=format&fit=crop"
+        }
+      ],
+      "commodities": [
+        { "label": "Agro-Foods", "items": "Corn · Soy · Vegetable Oil" },
+        { "label": "Oil & Gas", "items": "Crude Oil · ULSD EN590 · Natural Gas LP · Petcoke" },
+        { "label": "Minerals", "items": "Gold · Silver · Copper · Baryte" }
+      ]
+    },
+    "banner": {
+      "quote": "We don't just trade commodities — we build long-term relationships that drive sustainable growth.",
+      "image": "https://images.unsplash.com/photo-1726111262949-e22631a8c376?w=1600&q=80&auto=format&fit=crop",
+      "regions": ["LatAm", "Europe", "Asia", "Middle East"]
+    },
+    "why": {
+      "tag": "03 — A Partner You Can Trust",
+      "heading": "Why GBS?",
+      "items": [
+        { "icon": "fa-shuffle", "title": "Flexibility & Adaptability", "text": "We operate as an intermediary, seller, or logistics provider depending on your needs — not the other way around." },
+        { "icon": "fa-medal", "title": "Experience & Reliability", "text": "Proven expertise in international commodity markets and complex, high-stakes transactions." },
+        { "icon": "fa-leaf", "title": "Commitment to Sustainability", "text": "Responsible sourcing and environmentally conscious operations, end to end." },
+        { "icon": "fa-microchip", "title": "Technology-Driven Innovation", "text": "Advanced data analysis and digitalized logistics for cost efficiency and sharper decisions." }
+      ]
+    },
+    "insights": {
+      "tag": "04 — Market Insight",
+      "heading": "A Market in Motion",
+      "sub": "The global commodities landscape is being reshaped by the energy transition, digitalization and shifting demand from emerging economies — and GBS is positioned right at that intersection.",
+      "items": [
+        { "prefix": "", "value": "30", "suffix": "%", "text": "Projected growth in global mineral & metal demand by 2030, driven by the clean energy transition.", "src": "World Bank, 2023" },
+        { "prefix": "$", "value": "1.5", "suffix": "T+", "text": "Global investment in clean energy technologies expected over the next decade.", "src": "McKinsey & Company, 2022" },
+        { "prefix": "−", "value": "10", "suffix": "%", "text": "Potential reduction in operational costs through blockchain-enabled logistics visibility.", "src": "PwC, 2023" }
+      ]
+    },
+    "contact": {
+      "tag": "05 — Contact",
+      "heading": "Ready to optimize your commodity operations and expand globally?",
+      "text": "Tell us what you're moving, buying or selling — our team will map out the right structure for your operation.",
+      "ctaLabel": "Let's Drive Your Business Forward",
+      "email": "info@gbs.trade",
+      "location": "Ciudad de México, México",
+      "regions": "LatAm · Europe · Asia · Middle East"
+    },
+    "footer": {
+      "copyright": "GBS Trade — All rights reserved."
+    }
+  },
+  "es": {
+    "nav": {
+      "about": "Nosotros",
+      "services": "Servicios",
+      "why": "Por Qué GBS",
+      "insights": "Mercado",
+      "contact": "Contacto",
+      "cta": "Hablemos"
+    },
+    "hero": {
+      "eyebrow": "COMERCIO GLOBAL DE COMMODITIES — DESDE 2010",
+      "titleLine1": "IMPULSANDO",
+      "titleLine2": "TU NEGOCIO",
+      "titleLine3": "HACIA EL ÉXITO",
+      "subtitle": "Soluciones globales de comercio de commodities que conectan mercados, reducen riesgos y maximizan la rentabilidad — en metales, energía, agricultura y commodities blandos.",
+      "ctaPrimary": "Conoce Nuestros Servicios",
+      "ctaSecondary": "Contáctanos",
+      "videoUrl": "https://videos.pexels.com/video-files/2943126/2943126-uhd_2560_1440_24fps.mp4",
+      "posterUrl": "https://images.pexels.com/videos/2943126/free-video-2943126.jpg?auto=compress&cs=tinysrgb&w=1600",
+      "tags": ["METALES", "ENERGÍA", "AGROALIMENTOS", "MINERALES", "LOGÍSTICA"]
+    },
+    "stats": [
+      { "num": "15", "suffix": "", "label": "Años de Experiencia en el Mercado" },
+      { "num": "4", "suffix": "", "label": "Continentes de Operación" },
+      { "num": "3", "suffix": "", "label": "Líneas de Negocio Integradas" },
+      { "num": "20", "suffix": "+", "label": "Categorías de Commodities" }
+    ],
+    "about": {
+      "tag": "01 — Nosotros",
+      "heading": "Quiénes Somos",
+      "lead1": "GBS Trade es una empresa global de comercio de commodities con más de una década de experiencia en la adquisición, comercialización y distribución de materias primas en metales, energía, agricultura y commodities blandos.",
+      "lead2": "No solo comerciamos commodities: construimos relaciones de largo plazo que impulsan un crecimiento sostenible y el éxito operativo de nuestros clientes en todo el mundo, operando en mercados estratégicos de América Latina, Europa, Asia y Medio Oriente.",
+      "cards": [
+        {
+          "num": "01",
+          "title": "Quiénes Somos",
+          "text": "Un socio comercial de confianza que abarca intermediación, venta directa y logística — construido sobre una red global de compradores, vendedores y operadores.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen2.png/:/cr=t:27.78%25,l:0%25,w:100%25,h:44.43%25/rs=w:1240,h:620,cg:true"
+        },
+        {
+          "num": "02",
+          "title": "Misión",
+          "text": "Conectar mercados globales de manera eficiente, ofreciendo soluciones de comercio de commodities a la medida que generan valor y promueven un entorno financiero sostenible y responsable.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen4.png/:/cr=t:0%25,l:9.84%25,w:80.32%25,h:100%25/rs=w:600,h:300,cg:true"
+        },
+        {
+          "num": "03",
+          "title": "Visión",
+          "text": "Convertirnos en la plataforma líder de comercio de commodities a nivel mundial — reconocida por su integridad, innovación e impacto, redefiniendo los estándares de la industria a través de la confianza, la sostenibilidad y la tecnología.",
+          "image": "https://img1.wsimg.com/isteam/ip/635ff62b-9dd3-475b-9299-4e8700b143d3/Imagen5.png/:/cr=t:20.1%25,l:0%25,w:100%25,h:59.8%25/rs=w:600,h:300,cg:true"
+        }
+      ]
+    },
+    "services": {
+      "tag": "02 — Qué Hacemos",
+      "heading": "Nuestros Servicios",
+      "sub": "Tres líneas de negocio integradas que se adaptan a la forma en que cada cliente quiere operar — como intermediario, vendedor o socio logístico.",
+      "items": [
+        {
+          "icon": "fa-handshake",
+          "title": "Gestión Estratégica de Negocios",
+          "text": "Actuamos como intermediarios de confianza, conectando compradores y vendedores sin tomar posesión del producto — reduciendo el riesgo y acelerando la operación.",
+          "points": ["Acceso a una red global de compradores y vendedores", "Servicios de negociación especializados", "Gestión de riesgos y asesoría de mercado"],
+          "badges": ["Riesgo comercial reducido", "Transacciones más rápidas", "Operaciones conformes a normativa"],
+          "image": "https://images.unsplash.com/photo-1752159684779-0639174cdfac?w=800&q=80&auto=format&fit=crop"
+        },
+        {
+          "icon": "fa-truck-fast",
+          "title": "Servicios Logísticos",
+          "text": "Gestionamos todo el proceso logístico de origen a destino, garantizando eficiencia, cumplimiento y confiabilidad en cada etapa.",
+          "points": ["Red global de transportistas y operadores logísticos", "Gestión integral de la cadena de suministro", "Cumplimiento aduanero, fiscal y regulatorio"],
+          "badges": ["Tarifas competitivas", "Soluciones a la medida", "Importación/exportación simplificada"],
+          "image": "https://images.unsplash.com/photo-1759272840712-c7e5ea852367?w=800&q=80&auto=format&fit=crop"
+        },
+        {
+          "icon": "fa-boxes-stacked",
+          "title": "Venta Directa de Commodities",
+          "text": "GBS comercializa directamente una amplia gama de commodities, garantizando calidad, transparencia y entrega confiable desde la adquisición hasta el ingreso.",
+          "points": [],
+          "badges": ["Trazabilidad completa", "Precios competitivos", "Entrega confiable"],
+          "image": "https://images.unsplash.com/photo-1718752773168-a44aa1601ddd?w=800&q=80&auto=format&fit=crop"
+        }
+      ],
+      "commodities": [
+        { "label": "Agroalimentos", "items": "Maíz · Soya · Aceite Vegetal" },
+        { "label": "Petróleo y Gas", "items": "Petróleo Crudo · ULSD EN590 · Gas Natural LP · Coque de Petróleo" },
+        { "label": "Minerales", "items": "Oro · Plata · Cobre · Barita" }
+      ]
+    },
+    "banner": {
+      "quote": "\"No solo comerciamos commodities: construimos relaciones de largo plazo que impulsan un crecimiento sostenible.\"",
+      "image": "https://images.unsplash.com/photo-1726111262949-e22631a8c376?w=1600&q=80&auto=format&fit=crop",
+      "regions": ["LatAm", "Europa", "Asia", "Medio Oriente"]
+    },
+    "why": {
+      "tag": "03 — Un Socio de Confianza",
+      "heading": "¿Por Qué GBS?",
+      "items": [
+        { "icon": "fa-shuffle", "title": "Flexibilidad y Adaptabilidad", "text": "Operamos como intermediarios, vendedores o proveedores logísticos según tus necesidades — no al revés." },
+        { "icon": "fa-medal", "title": "Experiencia y Confiabilidad", "text": "Experiencia comprobada en mercados internacionales de commodities y en transacciones complejas de alto valor." },
+        { "icon": "fa-leaf", "title": "Compromiso con la Sostenibilidad", "text": "Abastecimiento responsable y operaciones conscientes del medio ambiente, de principio a fin." },
+        { "icon": "fa-microchip", "title": "Innovación Impulsada por Tecnología", "text": "Análisis de datos avanzado y logística digitalizada para una mayor eficiencia de costos y mejores decisiones." }
+      ]
+    },
+    "insights": {
+      "tag": "04 — Análisis de Mercado",
+      "heading": "Un Mercado en Movimiento",
+      "sub": "El panorama global de commodities está siendo transformado por la transición energética, la digitalización y la demanda cambiante de las economías emergentes — y GBS está posicionada justo en esa intersección.",
+      "items": [
+        { "prefix": "", "value": "30", "suffix": "%", "text": "Crecimiento proyectado en la demanda global de minerales y metales para 2030, impulsado por la transición hacia energías limpias.", "src": "World Bank, 2023" },
+        { "prefix": "$", "value": "1.5", "suffix": "T+", "text": "Inversión global en tecnologías de energía limpia esperada durante la próxima década.", "src": "McKinsey & Company, 2022" },
+        { "prefix": "−", "value": "10", "suffix": "%", "text": "Reducción potencial de costos operativos mediante visibilidad logística habilitada por blockchain.", "src": "PwC, 2023" }
+      ]
+    },
+    "contact": {
+      "tag": "05 — Contacto",
+      "heading": "¿Listo para optimizar tus operaciones de commodities y expandirte globalmente?",
+      "text": "Cuéntanos qué estás moviendo, comprando o vendiendo — nuestro equipo diseñará la estructura adecuada para tu operación.",
+      "ctaLabel": "Impulsemos Tu Negocio",
+      "email": "info@gbs.trade",
+      "location": "Ciudad de México, México",
+      "regions": "LatAm · Europa · Asia · Medio Oriente"
+    },
+    "footer": {
+      "copyright": "GBS Trade — Todos los derechos reservados."
+    }
+  }
+}

@@ -1,0 +1,173 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+site_url: "https://gbs.trade"
+display_url: "https://gbs.trade"
+logo_url: "/assets/gbs-mark-light.png"
+
+locale: "es"
+
+collections:
+  - name: "site"
+    label: "Sitio GBS"
+    files:
+      - name: "content"
+        label: "Contenido del sitio"
+        file: "content.json"
+        fields:
+
+          - label: "Colores de marca"
+            name: "theme"
+            widget: "object"
+            fields:
+              - { label: "Rojo (principal)", name: "colorPrimary", widget: "color" }
+              - { label: "Rojo claro (hover)", name: "colorPrimaryLight", widget: "color" }
+              - { label: "Verde (secundario)", name: "colorSecondary", widget: "color" }
+              - { label: "Fondo del sitio", name: "colorBg", widget: "color" }
+              - { label: "Color de texto", name: "colorInk", widget: "color" }
+
+          - label: "🇬🇧 Sitio en Inglés (English)"
+            name: "en"
+            widget: "object"
+            fields: &content_fields
+
+              - label: "Menú de navegación"
+                name: "nav"
+                widget: "object"
+                fields:
+                  - { label: "Enlace: Nosotros/About", name: "about", widget: "string" }
+                  - { label: "Enlace: Servicios/Services", name: "services", widget: "string" }
+                  - { label: "Enlace: Why GBS", name: "why", widget: "string" }
+                  - { label: "Enlace: Insights/Mercado", name: "insights", widget: "string" }
+                  - { label: "Enlace: Contacto/Contact", name: "contact", widget: "string" }
+                  - { label: "Botón principal (CTA)", name: "cta", widget: "string" }
+
+              - label: "Portada (Hero)"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - { label: "Texto pequeño superior", name: "eyebrow", widget: "string" }
+                  - { label: "Título — línea 1", name: "titleLine1", widget: "string" }
+                  - { label: "Título — línea 2", name: "titleLine2", widget: "string" }
+                  - { label: "Título — línea 3 (color destacado)", name: "titleLine3", widget: "string" }
+                  - { label: "Subtítulo", name: "subtitle", widget: "text" }
+                  - { label: "Texto botón principal", name: "ctaPrimary", widget: "string" }
+                  - { label: "Texto botón secundario", name: "ctaSecondary", widget: "string" }
+                  - { label: "Video de fondo", name: "videoUrl", widget: "file", hint: "Sube un video .mp4 o pega una URL" }
+                  - { label: "Imagen de respaldo (poster / mobile)", name: "posterUrl", widget: "image" }
+                  - { label: "Palabras de la cinta animada", name: "tags", widget: "list" }
+
+              - label: "Estadísticas (franja de números)"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Número", name: "num", widget: "string" }
+                  - { label: "Sufijo (ej. +)", name: "suffix", widget: "string", required: false }
+                  - { label: "Descripción", name: "label", widget: "string" }
+
+              - label: "Sobre Nosotros"
+                name: "about"
+                widget: "object"
+                fields:
+                  - { label: "Etiqueta", name: "tag", widget: "string" }
+                  - { label: "Título", name: "heading", widget: "string" }
+                  - { label: "Párrafo 1", name: "lead1", widget: "text" }
+                  - { label: "Párrafo 2", name: "lead2", widget: "text" }
+                  - label: "Tarjetas (Quiénes somos / Misión / Visión)"
+                    name: "cards"
+                    widget: "list"
+                    fields:
+                      - { label: "Número", name: "num", widget: "string" }
+                      - { label: "Título", name: "title", widget: "string" }
+                      - { label: "Texto", name: "text", widget: "text" }
+                      - { label: "Imagen", name: "image", widget: "image" }
+
+              - label: "Servicios"
+                name: "services"
+                widget: "object"
+                fields:
+                  - { label: "Etiqueta", name: "tag", widget: "string" }
+                  - { label: "Título", name: "heading", widget: "string" }
+                  - { label: "Subtítulo", name: "sub", widget: "text" }
+                  - label: "Lista de servicios"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - { label: "Ícono (Font Awesome, ej. fa-handshake)", name: "icon", widget: "string" }
+                      - { label: "Título", name: "title", widget: "string" }
+                      - { label: "Texto", name: "text", widget: "text" }
+                      - { label: "Puntos clave", name: "points", widget: "list", required: false }
+                      - { label: "Badges (chips cortos)", name: "badges", widget: "list", required: false }
+                      - { label: "Imagen / foto", name: "image", widget: "image" }
+                  - label: "Categorías de commodities"
+                    name: "commodities"
+                    widget: "list"
+                    fields:
+                      - { label: "Categoría", name: "label", widget: "string" }
+                      - { label: "Productos (separados por ·)", name: "items", widget: "string" }
+
+              - label: "Banner (franja fotográfica)"
+                name: "banner"
+                widget: "object"
+                fields:
+                  - { label: "Frase destacada", name: "quote", widget: "text" }
+                  - { label: "Imagen de fondo", name: "image", widget: "image" }
+                  - { label: "Regiones", name: "regions", widget: "list" }
+
+              - label: "Why GBS (diferenciadores)"
+                name: "why"
+                widget: "object"
+                fields:
+                  - { label: "Etiqueta", name: "tag", widget: "string" }
+                  - { label: "Título", name: "heading", widget: "string" }
+                  - label: "Tarjetas"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - { label: "Ícono (Font Awesome)", name: "icon", widget: "string" }
+                      - { label: "Título", name: "title", widget: "string" }
+                      - { label: "Texto", name: "text", widget: "text" }
+
+              - label: "Market Insight (datos del mercado)"
+                name: "insights"
+                widget: "object"
+                fields:
+                  - { label: "Etiqueta", name: "tag", widget: "string" }
+                  - { label: "Título", name: "heading", widget: "string" }
+                  - { label: "Subtítulo", name: "sub", widget: "text" }
+                  - label: "Datos"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - { label: "Prefijo (ej. $ o −)", name: "prefix", widget: "string", required: false }
+                      - { label: "Valor numérico", name: "value", widget: "string" }
+                      - { label: "Sufijo (ej. % o T+)", name: "suffix", widget: "string", required: false }
+                      - { label: "Texto", name: "text", widget: "text" }
+                      - { label: "Fuente", name: "src", widget: "string" }
+
+              - label: "Contacto"
+                name: "contact"
+                widget: "object"
+                fields:
+                  - { label: "Etiqueta", name: "tag", widget: "string" }
+                  - { label: "Título", name: "heading", widget: "text" }
+                  - { label: "Texto", name: "text", widget: "text" }
+                  - { label: "Texto del botón", name: "ctaLabel", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - { label: "Ubicación", name: "location", widget: "string" }
+                  - { label: "Regiones (texto libre)", name: "regions", widget: "string" }
+
+              - label: "Pie de página"
+                name: "footer"
+                widget: "object"
+                fields:
+                  - { label: "Texto de copyright", name: "copyright", widget: "string" }
+
+          - label: "🇲🇽 Sitio en Español"
+            name: "es"
+            widget: "object"
+            fields: *content_fields
